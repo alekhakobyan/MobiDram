@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Transfer]">
+  <test verbose="10" name="Transaction(failed)">
+    <classes>
+      <class name="am.TransactionSuite.TransactionTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Login_TC"/>
+          <include name="afterClass"/>
+          <include name="Transaction_TC" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- am.TransactionSuite.TransactionTest -->
+    </classes>
+  </test> <!-- Transaction(failed) -->
+</suite> <!-- Failed suite [Transfer] -->

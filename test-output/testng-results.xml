@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Transfer" duration-ms="373249" started-at="2019-02-06T09:24:08Z" finished-at="2019-02-06T09:30:21Z">
+    <groups>
+    </groups>
+    <test name="Transaction" duration-ms="373249" started-at="2019-02-06T09:24:08Z" finished-at="2019-02-06T09:30:21Z">
+      <class name="am.TransactionSuite.TransactionTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="beforeClass" is-config="true" duration-ms="10635" started-at="2019-02-06T13:24:08Z" finished-at="2019-02-06T13:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login_TC(tests.TestData)[pri:0, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Login_TC" duration-ms="7591" started-at="2019-02-06T13:24:19Z" data-provider="getData" finished-at="2019-02-06T13:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@1a75e76a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="54257" started-at="2019-02-06T13:24:27Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@1c742ed4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="68546" started-at="2019-02-06T13:25:21Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:26:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@c05fddc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="56109" started-at="2019-02-06T13:26:29Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@60f00693]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="56728" started-at="2019-02-06T13:27:25Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@97e93f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="68111" started-at="2019-02-06T13:28:22Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:29:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@6b09fb41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="Transaction_TC(tests.TestData)[pri:1, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="Transaction_TC" duration-ms="50448" started-at="2019-02-06T13:29:30Z" data-provider="getData" depends-on-methods="am.TransactionSuite.TransactionTest.Login_TC" finished-at="2019-02-06T13:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tests.TestData@23f5b5dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_TC -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:am.TransactionSuite.TransactionTest@14acaea5]" name="afterClass" is-config="true" duration-ms="617" started-at="2019-02-06T13:30:21Z" finished-at="2019-02-06T13:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- am.TransactionSuite.TransactionTest -->
+    </test> <!-- Transaction -->
+  </suite> <!-- Transfer -->
+</testng-results>

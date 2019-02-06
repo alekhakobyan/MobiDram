@@ -1,0 +1,12 @@
+{
+  "dataSet": [
+    {
+      "username": "vahagn.hakobyan.arm@gmail.com",
+      "password": "md89_f=ma",
+      "bankAccount": "Ameriabank",
+      "transferAmount": 100000,
+      "pin": "4302",
+      "payment": "408307**9470"
+    }
+  ]
+}

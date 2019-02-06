@@ -1,0 +1,12 @@
+{
+  "dataSet": [
+    {
+      "username": "alik.hakobyan.arm@gmail.com",
+      "password": "md89_f=ma",
+      "bankAccount": "Ameriabank",
+      "transferAmount": 100000,
+      "pin": "2300",
+      "payment": "408307**7317"
+    }
+  ]
+}

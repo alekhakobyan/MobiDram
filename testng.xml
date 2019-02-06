@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Transfer" thread-count="2" verbose="10" parallel="tests" >
+  <test name="Transaction">
+    <classes>
+      	<class name="am.TransactionSuite.TransactionTest"/>
+    </classes>
+  </test> 
+</suite> 

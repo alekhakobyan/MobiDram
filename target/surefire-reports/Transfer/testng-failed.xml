@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Transfer]">
+  <test verbose="0" name="Login(failed)">
+    <parameter name="password" value="md89_f=ma"/>
+    <parameter name="username" value="alik.hakobyan.arm@gmail.com"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="login_TC" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Transfer] -->
