@@ -25,7 +25,7 @@ public class TransactionTest extends BaseTest {
 		profilePage.clickOnTransfersLink();
     }
 	
-	@Test(priority=1, invocationCount = 6,  dependsOnMethods={"Login_TC"}, dataProvider = "getData", dataProviderClass = DataProviderClass.class)
+	@Test(priority=1, invocationCount = 5,  dependsOnMethods={"Login_TC"}, dataProvider = "getData", dataProviderClass = DataProviderClass.class)
     public void Transaction_TC(TestData data) throws InterruptedException {
 		System.out.println("Transfer To Bank Account:" + data.getTransferAmount());
 		
