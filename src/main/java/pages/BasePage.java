@@ -21,7 +21,8 @@ public abstract class BasePage {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, Constant.TIMEOUT), this);
     }
     
-    public void waitForCondition(ExpectedCondition<?> pageLoadCondition) {
+    @SuppressWarnings("deprecation")
+	public void waitForCondition(ExpectedCondition<?> pageLoadCondition) {
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 				.withTimeout(Constant.TIMEOUT, TimeUnit.SECONDS)
 				.pollingEvery(Constant.POLLING, TimeUnit.SECONDS).ignoring(Exception.class);
